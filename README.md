@@ -14,4 +14,20 @@
 
 ### Update Web App with Mars Hemisphere Images and Titles
 
+# New Mission to Mars site with High Res Hemisphere Images
+
+![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/Mars_Mission_High_Res.png)
+
+# Code that retrieves the full-resolution image URL and title for each hemisphere image
+
+![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/high_res_mars_scrape_code_py.png)
+
+# Mongo DB is updated to contain the full-resolution image URL
+
+![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/high_res_mongo_db.png)
+
+# HTML code that to display the full-resolution image URL and title for each hemisphere image
+
+![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/high_res_html.png)
+
 ### Add Bootstrap 3 Components
