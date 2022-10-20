@@ -14,7 +14,7 @@
 
 ### Update Web App with Mars Hemisphere Images and Titles
 
-New Mission to Mars site with High Res Hemisphere Images
+New Mission to Mars site with high res hemisphere images
 
 ![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/Mars_Mission_High_Res.png)
 
