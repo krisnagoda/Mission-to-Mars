@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    
     <title>Mission to Mars</title>
+    
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -34,7 +37,7 @@
 
       <!-- Section for Featured Image and Facts table -->
       <div class="row" id="mars-featured-image">
-        <div class="col-md-8">
+        <div class="col-md-7">
           <h2>Featured Mars Image</h2>
 
           <!-- if images is False/None/non-existent, then default to error message -->
@@ -45,10 +48,10 @@
           />
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-5">
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
-            <h4>Mars Facts</h4>
+            <h2>Mars Facts</h2>
             {{ mars.facts | safe }}
           </div>
         </div>
@@ -57,15 +60,15 @@
       <!-- Section for Mars Hemispheres -->
       <div class="row" id="mars-hemispheres">
         <div class="page-header" style="height: 60">
-          <h2 class="text-center">Mars Hemispheres</h2>
+          <h2 class="text-left">Mars Hemispheres</h2>
         </div>
 
         {% for hemisphere in mars.hemispheres %}
-        <div class="col-md-6">
+        <div class="col-md-3">
           <div class="thumbnail">
             <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="...">
             <div class="caption">              
-              <h3>{{hemisphere.title}}</h3>
+              <h4>{{hemisphere.title}}</h4>
             </div>
           </div>
         </div>
