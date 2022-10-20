@@ -31,3 +31,5 @@ HTML code to display the full-resolution image URL and title for each hemisphere
 ![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/55e7f4968c4324094b78b94768ac2eb0131e24ee/Mars_Scraping/images/high_res_html.png)
 
 ### Add Bootstrap 3 Components
+
+![This is an image](https://github.com/krisnagoda/Mission-to-Mars/blob/2ba93c8f96e261d0628619653d175f992c5568e6/Mars_Scraping/images/Mars_Mission_High_Res_Formatted.png)
